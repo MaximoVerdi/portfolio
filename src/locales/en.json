@@ -1,0 +1,14 @@
+{
+    "Inicio": "Home",
+    "Proyectos": "Proyects",
+    "Sobre mí": "About me",
+    "Contactame": "Contact me",
+    "Disponible": "Available to work",
+    "Descripción": "Passionate about <strong>Technology and Software Development</strong>, with a problem-solving mindset and a commitment to continuous learning. Specialized in web application development.",
+    "Dashboard": "Financial Dashboard",
+    "DashboardDescription": "Interactive website that fetches and displays real-time data from cryptocurrency market APIs and the Merval stock index. Built using React for the frontend and Node.js for the backend.",
+    "LaDescription": "E-Commerce platform featuring a product section with a dynamic pagination system and advanced filter management. Developed using React.",
+    "sobreMip1": "My name is <strong>Máximo Verdi</strong>. I’ve always been passionate about computers, technology, and video games. My journey into programming began during the quarantine when I developed a website for a shower door business. It was at that moment I realized how much I enjoyed programming, although I hadn’t paid much attention to it before then.",
+    "sobremip2": "Last year (2023), I decided to dive deeper into this field and enrolled in a <strong>Full Stack Web Development</strong> diploma program at UTN. Currently, I’m studying the <strong>Backend</strong> portion, where I’m expanding my knowledge in technologies like <strong>Node.js</strong>, databases, and APIs.",
+    "sobremip3": "My main goal is to <strong>grow as a developer</strong>, continue learning, and work on challenging projects that allow me to expand my skills in both <strong>Frontend</strong> and <strong>Backend</strong> development."
+}

@@ -1,0 +1,140 @@
+#hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+    gap: 50px;
+    margin: auto;
+}
+
+.hero-section__img img {
+    width: 260px;
+    border-radius: 130px;
+    border: 5px solid #f5f4fc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.hero-section__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-section__title {
+    font-size: 3.5em;
+    font-weight: 500;
+    color: #303030;
+    text-wrap: nowrap;
+}
+
+.hero-section__content p {
+    font-size: 1.2em;
+    text-wrap: balance;
+}
+
+.hero-section__content ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    user-select: none;
+}
+
+.hero-section__content ul li:hover {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(2476%) hue-rotate(230deg) brightness(93%) contrast(101%);
+    cursor: pointer;
+}
+
+
+.dispo {
+    font-size: .8em;
+    color: green;
+    background-color: #efffef;
+    border-radius: 999px;
+    padding: 4px 6px;
+    width: fit-content;
+    margin-bottom: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+/* Animacion del boton Disponible para trabajar */
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.dispo::after {
+    --angle: 0deg;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 102%;
+    height: 105%;
+    background-image: conic-gradient(from var(--angle),transparent 50%, rgb(3, 142, 3));
+    z-index: -1;
+    translate: -50% -50%;
+    border-radius: 999px;
+    animation: 3s spin infinite linear;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg;
+    }
+    to {
+        --angle: 360deg;
+    }
+}
+
+/* Fin Animacion del boton Disponible para trabajar */
+
+.contact-btn {
+    text-decoration: none;
+    color: #303030;
+    padding: 5px 14px;
+    border: 1px solid #3030304c;
+    border-radius: 999px;
+    width: fit-content;
+    transition: .2s;
+}
+
+.contact-btn:hover {
+    background-color: var(--violeta);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    #hero-section {
+        flex-direction: column;
+        margin-top: 150px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .hero-section__content {
+        align-items: center;
+    }
+}
+
+@media  screen and (max-width: 425px) {
+
+    #hero-section {
+        margin-top: 120px;
+        width: 80%;
+    }
+
+    .hero-section__img img {
+        width: 200px;
+    }
+
+    .hero-section__title {
+        font-size: 2.5em;
+    }
+    
+}

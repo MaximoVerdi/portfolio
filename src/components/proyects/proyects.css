@@ -1,0 +1,133 @@
+#proyects {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    padding-bottom: 90px;
+}
+
+.proyects__content {
+    display: grid;
+    gap: 30px;
+}
+
+.proyects__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5em;
+    flex-wrap: nowrap;
+}
+
+.proyects__title h2 {
+    font-weight: 600;
+    color: #303030;
+    white-space: nowrap;
+}
+
+.proyects__title img {
+    width: 30px;
+    margin-top: 5px;
+}
+
+.proyects__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.proyects__item-img img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.105);
+    width: 100%;
+}
+
+.proyects__item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.proyects__item-content h3 {
+    font-size: 1.5em;
+    color: #303030;
+}
+
+.proyects__item-content p {
+    width: 90%;
+    text-wrap: balance;
+}
+
+.proyects__item-tech {
+    display: flex;
+    gap: 15px;
+}
+
+.proyects__item-tech span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.js,
+.react,
+.html {
+    font-size: 0.9em;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 1px;
+}
+
+.js img,
+.react img {
+    width: 18px;
+    margin-top: 3px;
+}
+
+.proyects__item-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.proyects__item-links li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.proyects__item-links li a:hover {
+    background-color: var(--violeta);
+    color: #fff;
+}
+
+.proyects__item-links li a:hover img {
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .proyects__content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .proyects__item {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #proyects {
+        width: 80%;
+        margin-top: 100px;
+    }
+}

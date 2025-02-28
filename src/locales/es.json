@@ -1,0 +1,14 @@
+{
+    "Inicio": "Inicio",
+    "Proyectos": "Proyectos",
+    "Sobre mí": "Sobre mí",
+    "Contactame": "Contactame",
+    "Disponible": "Disponible para trabajar",
+    "Descripción": "Apasionado por la <strong>Tecnología y el Desarrollo de Software</strong> con una mentalidad orientada a la resolución de problemas y el aprendizaje continuo. Especializado en desarrollo de aplicaciones web",
+    "Dashboard": "Panel de Control Financiero",
+    "DashboardDescription": "Sitio web interactivo que obtiene y muestra datos en tiempo real de APIs del mercado de criptomonedas y del índice Merval. Desarrollado con React en el frontend y Node.js en el backend.",
+    "LaDescription": "Plataforma de E-Commerce que cuenta con una sección de productos, sistema de paginación dinámica y gestión avanzada de filtros. Desarrollada utilizando React.",
+    "sobreMip1": "Mi nombre es <strong>Máximo Verdi</strong>. Desde siempre me apasiono la computación, la tecnología y los juegos. Comence con la programacion durante la cuarentena, cuando desarrollé una página web para un emprendimiento de mamparas.",
+    "sobremip2": "Actualmente, estoy cursando una diplomatura Full Stack en la universidad U.T.N. En este momento esto estudiando <strong>Backend</strong>, donde estoy ampliando mis conocimientos en tecnologías como <strong>Node.js</strong>, bases de datos y APIs.",
+    "sobremip3": "Mi objetivo principal es <strong>crecer como desarrollador</strong>, seguir aprendiendo y trabajar en proyectos desafiantes que me permitan expandir mis habilidades tanto en <strong>Frontend</strong> como en <strong>Backend</strong>."
+}
