@@ -18,7 +18,7 @@ const Proyects = () => {
             <div className="proyects__content">
                 <div className="proyects__item">
                     <div className="proyects__item-img">
-                        <img src="src\components\proyects\hero-section.png" alt="Dashboard Financiero" />
+                        <img src="/public/static/hero-section.png" alt="Dashboard Financiero" />
                     </div>
                     <div className="proyects__item-content">
                         <h3>Fintrack Hub - {t("Dashboard")}</h3>
@@ -44,7 +44,7 @@ const Proyects = () => {
 
                 <div className="proyects__item">
                     <div className="proyects__item-img">
-                        <img src="src\components\proyects\la-stock.png" alt="Dashboard Financiero" />
+                        <img src="/public/static/la-stock.png" alt="Dashboard Financiero" />
                     </div>
                     <div className="proyects__item-content">
                         <h3>Legado Automoviles - E-Commerce</h3>
