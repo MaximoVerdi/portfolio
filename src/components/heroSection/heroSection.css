@@ -109,8 +109,9 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1350px) {
     #hero-section {
+        width: 80%;
         flex-direction: column;
         margin-top: 150px;
         text-align: center;

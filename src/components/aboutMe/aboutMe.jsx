@@ -20,7 +20,6 @@ const AboutMe = () => {
                 <div className="aboutMe__content-text">
                     <p dangerouslySetInnerHTML={{ __html: t("sobreMip1") }} />
                     <p dangerouslySetInnerHTML={{ __html: t("sobremip2") }} />
-                    <p dangerouslySetInnerHTML={{ __html: t("sobremip3") }} />
                 </div>
                 <img src="https://avatars.githubusercontent.com/u/186237024?v=4" alt="Foto de Maximo Verdi" />
             </div>

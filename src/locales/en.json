@@ -8,7 +8,6 @@
     "Dashboard": "Financial Dashboard",
     "DashboardDescription": "Interactive website that fetches and displays real-time data from cryptocurrency market APIs and the Merval stock index. Built using React for the frontend and Node.js for the backend.",
     "LaDescription": "E-Commerce platform featuring a product section with a dynamic pagination system and advanced filter management. Developed using React.",
-    "sobreMip1": "My name is <strong>Máximo Verdi</strong>. I’ve always been passionate about computers, technology, and video games. My journey into programming began during the quarantine when I developed a website for a shower door business. It was at that moment I realized how much I enjoyed programming, although I hadn’t paid much attention to it before then.",
-    "sobremip2": "Last year (2023), I decided to dive deeper into this field and enrolled in a <strong>Full Stack Web Development</strong> diploma program at UTN. Currently, I’m studying the <strong>Backend</strong> portion, where I’m expanding my knowledge in technologies like <strong>Node.js</strong>, databases, and APIs.",
-    "sobremip3": "My main goal is to <strong>grow as a developer</strong>, continue learning, and work on challenging projects that allow me to expand my skills in both <strong>Frontend</strong> and <strong>Backend</strong> development."
+    "sobreMip1": "Education in <strong>Full Stack Development</strong>, with skills in web programming and management of <strong>databases</strong> and<strong>artificial intelligence</strong> applications. <strong>Electromechanical Technician</strong> with <strong>hands-on experience</strong> in preventiveand corrective maintenance of electrical systems.",
+    "sobremip2": "My focus is on <strong>providing efficient solutions</strong> in creative and technical areas, as well as in software development and theimplementation of IT systems and services. Seeking a job opportunity in these fields to continue learning."
 }
