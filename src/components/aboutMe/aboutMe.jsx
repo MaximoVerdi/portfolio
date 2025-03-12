@@ -13,7 +13,7 @@ const AboutMe = () => {
     return (
         <section id="aboutMe">
             <div className="aboutMe__title">
-                <img src="./node_modules/boxicons/svg/regular/bx-user.svg" alt="" />
+                <img src="/static/bx-user.svg" alt="" />
                 <h3>{t("Sobre mi")}</h3>
             </div>
             <div className="aboutMe__content">

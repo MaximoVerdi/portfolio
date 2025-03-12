@@ -21,8 +21,8 @@ const HeroSection = () => {
                 </a>
                 <p dangerouslySetInnerHTML={{ __html: t("Descripción") }} />
                 <ul>
-                    <li><a href="https://github.com/MaximoVerdi" target="_blank"><img src="./node_modules/boxicons/svg/logos/bxl-github.svg" alt="" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/maximoverdi/" target="_blank"><img src="./node_modules/boxicons/svg/logos/bxl-linkedin.svg" alt="" /></a></li>
+                    <li><a href="https://github.com/MaximoVerdi" target="_blank"><img src="/static/bxl-github.svg" alt="" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/maximoverdi/" target="_blank"><img src="/static/bxl-linkedin.svg" alt="" /></a></li>
                 </ul>
                 <a className="contact-btn" href="mailto:maximoverdi21@gmail.com">{t("Contactame")}</a>
             </div>

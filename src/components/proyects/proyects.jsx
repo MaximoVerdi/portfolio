@@ -12,7 +12,7 @@ const Proyects = () => {
     return (
         <section id="proyects">
             <div className="proyects__title">
-                <img src="./node_modules/boxicons/svg/regular/bx-briefcase.svg" alt="" />
+                <img src="/static/bx-briefcase.svg" alt="" />
                 <h2>{t("Proyectos")}</h2>
             </div>
             <div className="proyects__content">
@@ -23,19 +23,19 @@ const Proyects = () => {
                     <div className="proyects__item-content">
                         <h3>Fintrack Hub - {t("Dashboard")}</h3>
                         <ul className="proyects__item-tech">
-                            <span className="react"><img src="./node_modules/boxicons/svg/logos/bxl-react.svg" alt="" />React</span>
-                            <span className="js"><img src="./node_modules/boxicons/svg/logos/bxl-javascript.svg" alt="" />Javascript</span>
+                            <span className="react"><img src="/static/bxl-react.svg" alt="" />React</span>
+                            <span className="js"><img src="/static/bxl-javascript.svg" alt="" />Javascript</span>
                         </ul>
                         <p>{t("DashboardDescription")}</p>
                         <ul className="proyects__item-links">
                             <li>
                                 <a>
-                                    <img src="./node_modules/boxicons/svg/logos/bxl-github.svg" alt="Github" />Code
+                                    <img src="/static/bxl-github.svg" alt="Github" />Code
                                 </a>
                             </li>
                             <li>
-                                <a>
-                                    <img src="./node_modules/boxicons/svg/regular/bx-link.svg" alt="Preview web" />Preview
+                                <a href="https://fintrack-hub.vercel.app/" target="_blank">
+                                    <img src="/static/bx-link.svg" alt="Preview web" />Preview
                                 </a>
                             </li>
                         </ul>
@@ -44,24 +44,24 @@ const Proyects = () => {
 
                 <div className="proyects__item">
                     <div className="proyects__item-img">
-                        <img src="/static/la-stock.png" alt="Dashboard Financiero" />
+                        <img src="/static/la-stock.png" alt="Web E-Commerce" />
                     </div>
                     <div className="proyects__item-content">
                         <h3>Legado Automoviles - E-Commerce</h3>
                         <ul className="proyects__item-tech">
-                            <span className="html"><img src="./node_modules/boxicons/svg/logos/bxl-html5.svg" alt="" />HTML</span>
-                            <span className="js"><img src="./node_modules/boxicons/svg/logos/bxl-javascript.svg" alt="" />Javascript</span>
+                            <span className="html"><img src="/static/bxl-html5.svg" alt="" />HTML</span>
+                            <span className="js"><img src="./static/bxl-javascript.svg" alt="" />Javascript</span>
                         </ul>
                         <p>{t("LaDescription")}</p>
                         <ul className="proyects__item-links">
                             <li>
                                 <a>
-                                    <img src="./node_modules/boxicons/svg/logos/bxl-github.svg" alt="Github" />Code
+                                    <img src="/static/bxl-github.svg" alt="Github" />Code
                                 </a>
                             </li>
                             <li>
-                                <a>
-                                    <img src="./node_modules/boxicons/svg/regular/bx-link.svg" alt="Preview web" />Preview
+                                <a href="legado-automoviles.vercel.app" target="_blank">
+                                    <img src="/static/bx-link.svg" alt="Preview web" />Preview
                                 </a>
                             </li>
                         </ul>
