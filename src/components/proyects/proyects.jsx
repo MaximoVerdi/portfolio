@@ -60,7 +60,7 @@ const Proyects = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="legado-automoviles.vercel.app" target="_blank">
+                                <a href="https://legado-automoviles.vercel.app" target="_blank">
                                     <img src="/static/bx-link.svg" alt="Preview web" />Preview
                                 </a>
                             </li>
