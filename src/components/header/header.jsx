@@ -37,8 +37,8 @@ const Header = () => {
 
             <ul className={`header__nav-list`}>
                 <li className="header__nav-item"><a href="#">{t("Inicio")}</a></li>
-                <li className="header__nav-item"><a href="#">{t("Proyectos")}</a></li>
-                <li className="header__nav-item"><a href="#">{t("Sobre mi")}</a></li>
+                <li className="header__nav-item"><a href="#proyects">{t("Proyectos")}</a></li>
+                <li className="header__nav-item"><a href="#aboutMe">{t("Sobre mi")}</a></li>
                 <li className="header__nav-item"><a href="mailto:maximoverdi21@gmail.com?Subject=Cotizacion%20Web">{t("Contactame")}</a></li>
                 <a className="lang-ancord" onClick={cambiarIdioma}>
                     {i18n.language === "es" ? "" : ""}
