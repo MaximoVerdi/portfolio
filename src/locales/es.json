@@ -7,7 +7,7 @@
     "Descripción": "Apasionado por la <strong>Tecnología y el Desarrollo de Software</strong> con una mentalidad orientada a la resolución de problemas y el aprendizaje continuo. Especializado en desarrollo de aplicaciones web",
     "Dashboard": "Panel de Control Financiero",
     "DashboardDescription": "Sitio web interactivo que obtiene y muestra datos en tiempo real de APIs del mercado de criptomonedas y del índice Merval. Desarrollado con React en el frontend y Node.js en el backend.",
-    "LaDescription": "Plataforma web con sección de productos, paginación dinámica y gestión avanzada de filtros. Desarrollada con React y desplegada en Firebase.",
+    "LaDescription": "Plataforma web con sección de productos, paginación dinámica, gestión avanzada de filtros y autenticación segura (email/contraseña + Google). Desarrollada con React y desplegada en Firebase.",
     "sobreMip1": "Formación en <strong>Desarrollo Full Stack</strong>, con habilidades en programación web y manejo de <strong>bases de datos</strong> y aplicativos de <strong>inteligencia artificial</strong>. <strong>Técnico Electromecánico</strong> con <strong>experiencia práctica</strong> en mantenimiento preventivo y correctivo de sistemas eléctricos.",
     "sobremip2": "Mi enfoque es <strong>brindar soluciones eficientes</strong> tanto en áreas creativas, técnicas como en el desarrollo de software e implementación de sistemas y servicios IT. Buscando una oportunidad de trabajo en estas áreas para seguir aprendiendo."
 }

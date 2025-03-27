@@ -7,7 +7,7 @@
     "Descripción": "Passionate about <strong>Technology and Software Development</strong>, with a problem-solving mindset and a commitment to continuous learning. Specialized in web application development.",
     "Dashboard": "Financial Dashboard",
     "DashboardDescription": "Interactive website that fetches and displays real-time data from cryptocurrency market APIs and the Merval stock index. Built using React for the frontend and Node.js for the backend.",
-    "LaDescription": "Dynamic pagination and advanced filtering system. Built with React and deployed on Firebase.",
+    "LaDescription": "Dynamic pagination, advanced filtering system and Secure authentication (email/password + Google). Built with React and deployed on Firebase.",
     "sobreMip1": "Education in <strong>Full Stack Development</strong>, with skills in web programming and management of <strong>databases</strong> and<strong>artificial intelligence</strong> applications. <strong>Electromechanical Technician</strong> with <strong>hands-on experience</strong> in preventiveand corrective maintenance of electrical systems.",
     "sobremip2": "My focus is on <strong>providing efficient solutions</strong> in creative and technical areas, as well as in software development and theimplementation of IT systems and services. Seeking a job opportunity in these fields to continue learning."
 }
