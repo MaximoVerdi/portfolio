@@ -29,7 +29,7 @@ const Proyects = () => {
                         <p>{t("DashboardDescription")}</p>
                         <ul className="proyects__item-links">
                             <li>
-                                <a href="https://github.com/MaximoVerdi/cripto-dashboard">
+                                <a href="https://github.com/MaximoVerdi/cripto-dashboard" target="_blank">
                                     <img src="/static/bxl-github.svg" alt="Github" />Code
                                 </a>
                             </li>
@@ -55,7 +55,7 @@ const Proyects = () => {
                         <p>{t("LaDescription")}</p>
                         <ul className="proyects__item-links">
                             <li>
-                                <a href="https://github.com/MaximoVerdi/legado-automoviles">
+                                <a href="https://github.com/MaximoVerdi/legado-automoviles" target="_blank">
                                     <img src="/static/bxl-github.svg" alt="Github" />Code
                                 </a>
                             </li>
