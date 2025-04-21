@@ -29,7 +29,7 @@ const Proyects = () => {
                         <p>{t("DashboardDescription")}</p>
                         <ul className="proyects__item-links">
                             <li>
-                                <a>
+                                <a href="https://github.com/MaximoVerdi/cripto-dashboard">
                                     <img src="/static/bxl-github.svg" alt="Github" />Code
                                 </a>
                             </li>
@@ -55,7 +55,7 @@ const Proyects = () => {
                         <p>{t("LaDescription")}</p>
                         <ul className="proyects__item-links">
                             <li>
-                                <a>
+                                <a href="https://github.com/MaximoVerdi/legado-automoviles">
                                     <img src="/static/bxl-github.svg" alt="Github" />Code
                                 </a>
                             </li>
