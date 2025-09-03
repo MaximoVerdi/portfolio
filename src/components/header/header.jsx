@@ -1,4 +1,4 @@
-import React, { use } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import "../../i18n"; // Importar configuración de i18next
 import "./header.css";

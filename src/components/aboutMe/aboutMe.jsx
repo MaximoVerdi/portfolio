@@ -4,12 +4,8 @@ import "../../i18n";
 
 
 const AboutMe = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     
-    const cambiarIdioma = () => {
-        const nuevoIdioma = i18n.language === "es" ? "en" : "es";
-        i18n.changeLanguage(nuevoIdioma);
-    };
     return (
         <section id="aboutMe">
             <div className="aboutMe__title">

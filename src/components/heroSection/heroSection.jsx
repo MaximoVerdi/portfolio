@@ -1,14 +1,11 @@
 import "./heroSection.css";
 import { useTranslation } from "react-i18next";
-import "../../i18n"; // Importar configuración de i18next
+import "../../i18n"
 import React from "react";
 
 const HeroSection = () => {
-    const { t, i18n } = useTranslation();
-    const cambiarIdioma = () => {
-        const nuevoIdioma = i18n.language === "es" ? "en" : "es";
-        i18n.changeLanguage(nuevoIdioma);
-      };
+    const { t } = useTranslation();
+
     return (
         <section id="hero-section">
             <div className="hero-section__img">

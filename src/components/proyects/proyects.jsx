@@ -3,17 +3,13 @@ import "../../i18n";
 import "./proyects.css";
 
 const Proyects = () => {
-    const { t, i18n } = useTranslation();
+    const {t} = useTranslation();
     
-    const cambiarIdioma = () => {
-        const nuevoIdioma = i18n.language === "es" ? "en" : "es";
-        i18n.changeLanguage(nuevoIdioma);
-    };
     return (
         <section id="proyects">
             <div className="proyects__title">
-                <img src="/static/bx-briefcase.svg" alt="" />
-                <h2>{t("Proyectos")}</h2>
+                <img src="/static/bx-code-alt.svg" alt="" />
+                <h2>{t("Proyects")}</h2>
             </div>
             <div className="proyects__content">
                 <div className="proyects__item">
